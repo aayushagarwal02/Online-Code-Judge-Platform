@@ -1,0 +1,9 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/aayushagarwal02/Online-Code-Judge-Platform-Client.git
+[submodule "server"]
+	path = server
+	url = https://github.com/aayushagarwal02/Online-Code-Judge-Platform-Server.git
+[submodule "compiler"]
+	path = compiler
+	url = https://github.com/aayushagarwal02/Online-Code-Judge-Platform-Compiler.git

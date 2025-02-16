@@ -7,3 +7,6 @@
 [submodule "compiler"]
 	path = compiler
 	url = https://github.com/aayushagarwal02/Online-Code-Judge-Platform-Compiler.git
+[submodule "sandboxed_compiler"]
+	path = sandboxed_compiler
+	url = https://github.com/aayushagarwal02/sandbox_code_execution_express.git

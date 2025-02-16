@@ -27,6 +27,32 @@ Explore the live application:
 - **Real-Time Code Evaluation**: Compile and execute code in a sandboxed environment using Docker.
 - **Language Support**: Users can choose their preferred programming language.
 - **Verdict System**: Instant feedback on submissions (e.g., Accepted, Wrong Answer).
+
+---
+
+## 🖥️ Code Execution Engine (Sandboxed Compiler)
+
+This project integrates a **sandboxed code execution environment** to safely run submitted code inside isolated Docker containers. The execution engine is available as a submodule at:
+
+🔗 **[sandbox_code_execution](https://github.com/aayushagarwal02/sandbox_code_execution_express)** (linked in `sandboxed_compiler/`)
+
+### **How It Works**
+- Supports Python, C++, Java, and JavaScript execution.
+- Runs code in isolated Docker containers with **memory and time constraints**.
+- Ensures **secure and restricted execution** to prevent malicious code execution.
+- Cannot be deployed on platforms like Railway but can be **explored locally**.
+
+### **Using the Sandboxed Compiler Locally**
+1. Initialize the submodule:
+   ```bash
+   git submodule update --init --recursive
+   ```
+2. Navigate to the sandboxed compiler directory:
+   ```bash
+   cd sandboxed_compiler
+   ```
+3. Follow the **[setup guide](sandboxed_compiler/README.md)** inside the submodule to start the sandbox execution engine.
+
 ---
 
 ## 🖥️ Technologies Used
@@ -84,8 +110,8 @@ Follow these steps to set up the project on your local machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/vivagarwal/Online-Judge.git
-cd Online-Judge
+git clone https://github.com/aayushagarwal02/Online-Code-Judge-Platform.git
+cd Online-Code-Judge-Platform
 ```
 
 ---
